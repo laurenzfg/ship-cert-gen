@@ -1,0 +1,7 @@
+{
+    "python.testing.pytestArgs": [
+        "ship_cert_gen"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}

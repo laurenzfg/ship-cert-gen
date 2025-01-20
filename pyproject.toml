@@ -1,0 +1,26 @@
+[project]
+name = "ship-cert-gen"
+version = "1.0.3"
+description = "Generates a Self-Signed SHIP Certificate + SKI"
+readme = "README.md"
+authors = [{name = "laurenzfg", email = "www@laurenzfg.com"}]
+requires-python = ">=3.8"
+classifiers=[
+  'Intended Audience :: Developers',
+  'License :: OSI Approved :: MIT License',
+  'Programming Language :: Python :: 3',
+]
+  
+dependencies = [
+  'cryptography ~= 44.0.0',
+]
+
+[project.urls]
+Repository="https://github.com/laurenzfg/ship-cert-gen"
+
+[project.optional-dependencies]
+dev-requirements = ["pytest", "setuptools", "wheel"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
